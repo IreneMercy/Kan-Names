@@ -33,9 +33,7 @@ function akanName() {
 
 
 
-//
-// var dayCalculate = parseInt(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10))) % 7;
-//
+
 // var gender = document.getElementById('genders').value;
 //     myform.addEventLiatener('submit', function akanName(event)){
 //       if (document.getElementById('male').checked) {
