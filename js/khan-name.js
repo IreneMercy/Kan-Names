@@ -35,13 +35,7 @@ function akanName() {
 
 
 
-//
-//        // var maleName = male[dayCalculate - 1]
-//        // var day = dayOfTheWeek[dayCalculate -1]
-//        // alert(" Since you were born on " + day + " Your name is "+maleName);
-//        else if ( gender = document.getElementById('female').checked) {
-//         gender = document.getElementById('female').value;
-//
+
 //         alert(" Since you were born on " + dayOfTheWeek + " Your name is "+ female);
 //            // var femaleName = female[dayCalculate -1]
 //            // var day = dayOfTheWeek[dayCalculate - 1]
