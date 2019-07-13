@@ -26,20 +26,4 @@ function akanName() {
 
   document.getElementById('result').innerHTML = male[dayCalculate] || female[dayCalculate];
 
-}
-
-
-
-
-
-
-
-
-
-//         alert(" Since you were born on " + dayOfTheWeek + " Your name is "+ female);
-//            // var femaleName = female[dayCalculate -1]
-//            // var day = dayOfTheWeek[dayCalculate - 1]
-//            // alert(" Since you were born on " + day + " Your name is "+ femaleName);
-//        }
-// }
-// document.getElementById('result').innerHTML = akanName;
+};
