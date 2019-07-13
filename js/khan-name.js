@@ -34,11 +34,7 @@ function akanName() {
 
 
 
-// var gender = document.getElementById('genders').value;
-//     myform.addEventLiatener('submit', function akanName(event)){
-//       if (document.getElementById('male').checked) {
-//            gender = document.getElementById('male').value;
-//     }
+
 //
 //        // var maleName = male[dayCalculate - 1]
 //        // var day = dayOfTheWeek[dayCalculate -1]
