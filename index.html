@@ -3,31 +3,35 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Khan Names</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kan Names</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <form class="form-inline">
-        <div class="input-group">
-             <label>Year</label>
-             <br>
-             <input id="year" type="text" name="year" value="year" min="0" max="2019" required>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>This is a web application that takes a users birthday and calculates the day
+             of the week they were born and then depending on their grnder, outputs their Akan name</p>
+          <p>Akan names are names derived from the Ghanian culture, where by children are given names according
+          to the day of the week they were born corresponding to their gender.</p>
         </div>
 
-        <div class="input-group">
-          <label>Month</label>
-          <br>
-          <input id="month" type="text" name="month" value="month" min="1" max="12" required>
-        </div>
+        <div class="col-md-12">
+          <form id="myform">
+            <input type="date" id="birth" />
+            <br>
+            <div class="input" id="genders">
+              <input type="radio" id="female" name="female" value="female">Female
+              <br>
+              <input type="radio" id="male"name="male" value="male">Male
+            </div>
+            <input type="submit" value="Submit" id="submitButton" onsubmit= akanName(); />
+          </form>
 
-        <div class="input-group">
-          <label>Date</label>
-          <br>
-          <input id="date" type="text" name="date" value="date"  min="1" max="31" required>
+          <p id="result"></p>
         </div>
-
-      </form>
+      </div>
     </div>
-<script src="js/khan-name.js"></script>
+  <script src="js/khan-name.js"></script>
   </body>
 </html>
