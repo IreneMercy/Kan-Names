@@ -9,23 +9,23 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 description" >
           <p>This is a web application that takes a users birthday and calculates the day
              of the week they were born and then depending on their grnder, outputs their Akan name</p>
           <p>Akan names are names derived from the Ghanian culture, where by children are given names according
           to the day of the week they were born corresponding to their gender.</p>
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-12 form">
           <form id="myform">
-            <input type="date" id="birth" />
+            <input class="input" type="date" id="birth" />
             <br>
             <div class="input" id="genders">
               <input type="radio" id="female" name="female" value="female">Female
               <br>
               <input type="radio" id="male"name="male" value="male">Male
             </div>
-            <input type="submit" value="Submit" id="submitButton" onsubmit= akanName(); />
+            <input class="input bg-primary" type="submit" value="Submit" id="submitButton" onsubmit= akanName(); />
           </form>
 
           <p id="result"></p>

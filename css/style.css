@@ -1,4 +1,13 @@
 #myform{
-  margin-top: 10%;
-  
+  margin-top:5%;
+  align-self: center;
+  padding-left:30%;
+}
+.input{
+  width: 50%;
+}
+.description{
+  text-align: center;
+  padding-top: 5%;
+  font-family: georgia;
 }
