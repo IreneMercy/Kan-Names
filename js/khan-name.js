@@ -18,12 +18,17 @@ function akanName() {
   if (document.getElementById('male').checked) {
     gender = document.getElementById('male').value;
     alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + male[dayCalculate]);
+    document.getElementById('result').innerHTML = male[dayCalculate];
+
   }
   if (document.getElementById('female').checked) {
     gender = document.getElementById('female').value;
     alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
+    document.getElementById('result').innerHTML = female[dayCalculate];
+
+    // alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
   }
 
-  document.getElementById('result').innerHTML = dayOfTheWeek[dayCalculate];
+  // document.getElementById('result').innerHTML = dayOfTheWeek[dayCalculate];
 
 };
