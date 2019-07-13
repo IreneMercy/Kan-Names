@@ -1,7 +1,23 @@
+#header{
+  color: gold;
+}
+.container-fluid{
+  background-image:url(../images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+.overlay{
+  background-color: black;
+  opacity: 0.8;
+  height: 100vh;
+}
 #myform{
-  margin-top:5%;
   align-self: center;
   padding-left:30%;
+  height:100%;
+  padding-bottom:5%;
 }
 .input{
   width: 50%;
@@ -13,19 +29,30 @@
 }
 #birth{
   border-radius: 20px;
-  color: gold;
+  color:gold;
   font-family: georgia;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: transparent;
-  border:2px solid skyblue;
+  border:2px solid cyan;
+  margin-top:10%;
+}
+#female{
+  margin-top:5%;
+}
+#gender{
+  color: gold;
+}
+#genders{
+  margin-left: 20%;
+  margin-top: 2%;
 }
 #submitButton{
   border-radius:20px;
   color:gold;
   font-family: georgia;
-  border:2px solid skyblue;
+  border:2px solid cyan;
   background-color: transparent;
   padding-top: 5px;
   padding-bottom: 5px;

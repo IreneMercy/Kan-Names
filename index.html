@@ -7,28 +7,31 @@
     <title>Kan Names</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 description" >
-          <p>This is a web application that takes a users birthday and calculates the day
-             of the week they were born and then depending on their grnder, outputs their Akan name</p>
-          <p>Akan names are names derived from the Ghanian culture, where by children are given names according
-          to the day of the week they were born corresponding to their gender.</p>
-        </div>
+    <div class="container-fluid">
+      <div class="overlay">
+        <div class="row">
+          <div class="col-md-12 description" >
+            <h1 id="header">Know Your Day Of Birth</h1>
+            <p>This is a web application that takes a users birthday and calculates the day
+               of the week they were born and then depending on their grnder, outputs their Akan name</p>
+            <p>Akan names are names derived from the Ghanian culture, where by children are given names according
+            to the day of the week they were born corresponding to their gender.</p>
+          </div>
 
-        <div class="col-md-12 form">
-          <form id="myform">
-            <input class="input" type="date" id="birth" />
-            <br>
-            <div class="input" id="genders">
-              <input type="radio" id="female" name="female" value="female">Female
+          <div class="col-md-12 form">
+            <form id="myform">
+              <input class="input" type="date" id="birth" />
               <br>
-              <input type="radio" id="male"name="male" value="male">Male
-            </div>
-            <input class="input" type="submit" value="Submit" id="submitButton" onsubmit= akanName(); />
-          </form>
+              <div class="input" id="genders">
+                <input type="radio" id="female" name="female" value="female"> <span id="gender">Female</span>
+                <br>
+                <input type="radio" id="male"name="male" value="male"> <span id="gender">Male</span>
+              </div>
+              <input class="input" type="submit" value="Submit" id="submitButton" onclick= akanName() />
 
-          <p id="result"></p>
+              <div>Result:<span id="result"></span></div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
