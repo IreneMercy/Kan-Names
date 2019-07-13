@@ -7,7 +7,6 @@ function akanName() {
     MM = d.getMonth();
     CC = d.getDate();
   }else {/* Invalid date */}
-
   var male =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var female = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
@@ -31,18 +30,7 @@ function akanName() {
 
 
 
-//
-// document.getElementById('myform').onsubmit =
-// function akanName() {
-// var birth = document.getElementById('birth').value;
-// alert('Your date of birth is ' + birth);
-// var CC, YY, MM, DD;
-// var CC = dob.slice(0,2);
-// var YY = dob.slice(2,4);
-// var MM = dob.slice(5,7);
-// var DD = dob.slice(8,10);
-//
-//
+
 // var male= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 //
 // var female = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
