@@ -11,3 +11,21 @@
   padding-top: 5%;
   font-family: georgia;
 }
+#birth{
+  border-radius: 20px;
+  color: gold;
+  font-family: georgia;
+  text-align: center;
+}
+#submitButton{
+  border-radius:20px;
+  color:gold;
+  font-family: georgia;
+  border:2px solid blue;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5%;
+  text-transform: uppercase;
+
+}

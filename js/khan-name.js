@@ -19,12 +19,14 @@ var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Frid
 var dayCalculate = parseInt(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10))) % 7;
 
 var gender = document.getElementById('genders').value;
-   if (document.getElementById('male').checked) {
-        gender = document.getElementById('male').value;
+    myform.addEventLiatener('submit', function akanName(event)){
+      if (document.getElementById('male').checked) {
+           gender = document.getElementById('male').value;
+    }
+
        // var maleName = male[dayCalculate - 1]
        // var day = dayOfTheWeek[dayCalculate -1]
        // alert(" Since you were born on " + day + " Your name is "+maleName);
-       }
        else if ( gender = document.getElementById('female').checked) {
         gender = document.getElementById('female').value;
 
