@@ -6,6 +6,7 @@ function akanName() {
     YY = d.getFullYear();
     MM = d.getMonth();
     CC = d.getDate();
+    
   }else {/* Invalid date */}
   var male =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var female = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
