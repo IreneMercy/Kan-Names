@@ -13,9 +13,12 @@
 #### A user should be able to choose their gender through radio buttons.
 #### A user should be able to click the submit button and get back their Akan name according to their gender.
 
+### link
+https://irenemercy.github.io/Kan-Names/
+
 ### Project Installation
 #### Fork the repository
-#### On your terminal run git clone the project
+#### On your terminal run git clone the project [https://irenemercy.github.io/Kan-Names/]
 #### On your terminal run the command cd Kan-Names
 #### Run the command code . to open the project on your text editor
 
@@ -25,6 +28,9 @@
 #### CSS
 #### JavaScript
 #### md
+
+### Demo
+![Image (../images/demo.png)]
 
 ### Copyright
 #### Irene Mercy Oyoo
