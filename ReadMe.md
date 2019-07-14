@@ -16,7 +16,7 @@
 ##Link
 https://irenemercy.github.io/Kan-Names/
 
-### Project Installation
+## Project Installation
 #### Fork the repository
 #### On your terminal run git clone the project https://irenemercy.github.io/Kan-Names/
 #### On your terminal run the command cd Kan-Names
