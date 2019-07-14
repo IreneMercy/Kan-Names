@@ -62,8 +62,27 @@
   text-transform: uppercase;
 
 }
+#decription{
+  margin-top:3%;
+}
+
+#display{
+  margin-top:5%;
+  margin-left:5%;
+  background-color: white;
+  color: black;
+  width:40%;
+  height: 10%;
+  border-radius:10px;
+}
+#display p{
+  margin-left: 3%;
+  color: black;
+  font-weight: bold;
+}
+
 #result{
-  margin-top:5px;
+  color:gold;
 }
 
 #table-paragraph{

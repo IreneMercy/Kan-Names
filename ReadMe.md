@@ -10,7 +10,7 @@
 ### Behaviour Driven Development
 #### A user should be able to see a small description, so as to understand the application.
 #### A user should be able to enter their date of birth through a form.
-#### A user should be able to check their gender through radio buttons.
+#### A user should be able to choose their gender through radio buttons.
 #### A user should be able to click the submit button and get back their Akan name according to their gender.
 
 ### Project Installation
