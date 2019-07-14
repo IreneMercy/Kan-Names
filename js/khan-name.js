@@ -26,9 +26,6 @@ function akanName() {
     alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
     document.getElementById('result').innerHTML = female[dayCalculate];
 
-    // alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
   }
-
-  // document.getElementById('result').innerHTML = dayOfTheWeek[dayCalculate];
 
 };

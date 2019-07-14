@@ -7,12 +7,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: auto;
+  height:100vh;
 }
 .overlay{
   background-color: black;
   opacity: 0.8;
-  height:auto;
+  height:100vh;
 
 }
 #myform{
