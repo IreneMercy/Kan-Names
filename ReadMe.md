@@ -13,7 +13,7 @@
 #### A user should be able to choose their gender through radio buttons.
 #### A user should be able to click the submit button and get back their Akan name according to their gender.
 
-##Link
+## Link
 https://irenemercy.github.io/Kan-Names/
 
 ## Project Installation
