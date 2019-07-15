@@ -22,11 +22,11 @@
               <input class="input" type="date" id="birth" />
               <br>
               <div class="input" id="genders">
-                <input type="radio" id="female" name="female" value="female"> <span id="gender">Female</span>
+                <input type="radio" id="female" name="radAnswer" value="female"> <span id="gender">Female</span>
                 <br>
-                <input type="radio" id="male"name="male" value="male"> <span id="gender">Male</span>
+                <input type="radio" id="male"name="radAnswer" value="male"> <span id="gender">Male</span>
               </div>
-              <input class="input" type="submit" value="Submit" id="submitButton" onclick=event.preventDefault();akanName() />
+              <input class="input" type="submit" value="Submit" id="submitButton" onclick=akanName() />
 
               <div id="display"> <p>Your Akan name is: <span id="result"></span></p></div>
             </form>
