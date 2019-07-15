@@ -30,7 +30,7 @@ https://irenemercy.github.io/Kan-Names/
 #### md
 
 ## Demo
-<img src="images/demo.png">
+<img src="images/demo2.png">
 
 ## Copyright
 #### Irene Mercy Oyoo
