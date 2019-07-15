@@ -2,7 +2,7 @@ function akanName() {
   var input = document.getElementById('birth').value;
   var d = new Date(input);
   var CC, MM, YY;
-  if (!!d.valueOf()) {
+  if (d.valueOf()) {
     YY = d.getFullYear();
     MM = d.getMonth();
     CC = d.getDate();
@@ -24,7 +24,7 @@ function akanName() {
     document.getElementById('result').innerHTML = male[dayCalculate];
 
   }
-  if (document.getElementById('female').checked) {
+  else if (document.getElementById('female').checked) {
     gender = document.getElementById('female').value;
     alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
     document.getElementById('result').innerHTML = female[dayCalculate];
