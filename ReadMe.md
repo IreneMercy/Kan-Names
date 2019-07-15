@@ -18,9 +18,9 @@ https://irenemercy.github.io/Kan-Names/
 
 ## Project Installation
 #### Fork the repository
-#### On your terminal run git clone the project https://irenemercy.github.io/Kan-Names/
+#### On your terminal run the command git clone "the project link" https://irenemercy.github.io/Kan-Names/
 #### On your terminal run the command cd Kan-Names
-#### Run the command code . to open the project on your text editor
+#### On your terminal run the command code . to open the project on your text editor
 
 ## Technologies Used
 #### Bootstrap
