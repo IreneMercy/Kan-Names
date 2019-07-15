@@ -1,11 +1,11 @@
 function akanName() {
   var input = document.getElementById('birth').value;
-  var dayOfTheWeek = new Date(input);
+  var d = new Date(input);
   var CC, MM, YY;
-  if (!!day.valueOf()) {
-    YY = day.getFullYear();
-    MM = day.getMonth();
-    CC = day.getDate();
+  if (!!d.valueOf()) {
+    YY = d.getFullYear();
+    MM = d.getMonth();
+    CC = d.getDate();
 
   }else {/* Invalid date */}
   var male =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];

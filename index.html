@@ -18,6 +18,7 @@
 
           <div class="col-md-12 form">
             <form id="myform">
+              <h2 id="birth-date">Enter your birth date</h2>
               <input class="input" type="date" id="birth" />
               <br>
               <div class="input" id="genders">
@@ -25,7 +26,7 @@
                 <br>
                 <input type="radio" id="male"name="male" value="male"> <span id="gender">Male</span>
               </div>
-              <input class="input" type="submit" value="Submit" id="submitButton" onclick= akanName() />
+              <input class="input" type="submit" value="Submit" id="submitButton" onclick=event.preventDefault();akanName() />
 
               <div id="display"> <p>Your Akan name is: <span id="result"></span></p></div>
             </form>
