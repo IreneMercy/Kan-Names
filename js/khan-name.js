@@ -7,7 +7,9 @@ function akanName() {
     MM = d.getMonth();
     CC = d.getDate();
 
-  }else {/* Invalid date */}
+  }else {/* Invalid date */
+         alert("Invalid date");
+       }
   var male =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var female = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
