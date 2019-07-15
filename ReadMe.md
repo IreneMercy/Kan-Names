@@ -8,13 +8,17 @@
 #### Irene Mercy
 
 ## Behaviour Driven Development
-#### A user should be able to see a small description, so as to understand the application.
-#### A user should be able to enter their date of birth through a form.
-#### A user should be able to choose their gender through radio buttons.
-#### A user should be able to click the submit button and get back their Akan name according to their gender.
+#### As a user, I should be able to see a small description, so as to understand the application.
+#### As a user, I should be able to enter my date of birth through a form.
+#### As a user, I  should be able to choose my gender through radio buttons.
+#### As a user, I should be able to click the submit button and get back my Akan name according to my gender.
+
 #### Scenario:
-##### Given that the user enter valid date of birth.
-##### Then selects their gender and click the submit button.
+##### Given that:
+##### the user enter valid date of birth on the date picker,
+##### Selects their gender through radio buttons,
+##### and then click the submit button,
+##### then the user should get the result of their Akan name on an alert.
 
 ## Link
 https://irenemercy.github.io/Kan-Names/
