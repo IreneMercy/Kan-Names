@@ -12,6 +12,9 @@
 #### A user should be able to enter their date of birth through a form.
 #### A user should be able to choose their gender through radio buttons.
 #### A user should be able to click the submit button and get back their Akan name according to their gender.
+#### Scenario:
+##### Given that the user enter valid date of birth.
+##### Then selects their gender and click the submit button.
 
 ## Link
 https://irenemercy.github.io/Kan-Names/
