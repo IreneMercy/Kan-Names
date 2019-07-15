@@ -29,7 +29,7 @@ function akanName() {
     alert(" Since you were born on " + dayOfTheWeek[dayCalculate] + ',' + " your name is " + female[dayCalculate]);
     document.getElementById('result').innerHTML = female[dayCalculate];
   }else {
-    alert("Choose your gender")
+    alert("Choose your gender");
   }
 
 };
