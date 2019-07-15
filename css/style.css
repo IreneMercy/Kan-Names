@@ -36,7 +36,7 @@
 
 #birth{
   border-radius: 20px;
-  color:wheat;
+  color:gold;
   font-family: georgia;
   text-align: center;
   padding-top: 5px;
@@ -51,7 +51,7 @@
 }
 
 #gender{
-  color:wheat;
+  color:gold;
 }
 
 #genders{
@@ -61,7 +61,7 @@
 
 #submitButton{
   border-radius:20px;
-  color:wheat;
+  color:gold;
   font-family: georgia;
   border:2px solid cyan;
   background-color: transparent;
@@ -98,7 +98,7 @@
 
 
 #birth-date{
-  color:wheat;
+  color:gold;
   padding-top:3%;
   margin-left: 5%;
   font-family: georgia;
